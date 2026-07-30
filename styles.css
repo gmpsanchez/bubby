@@ -1,0 +1,80 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+.avatar {
+    width: 150px;
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+
+}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    background: #dfe7fd;
+    color: #2b2839;
+    border: 6px solid #cddafd;
+    background-color: #E5E5F7;
+background: radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #E5E5F7 20%, #E5E5F7 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#bee1e6 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #bee1e6 2px, #E5E5F7 2px) -1px 0;
+background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.img-border {
+    border: 10px solid #fde2e4;
+    border-radius: 20px;
+    
+}
+
+.img-border:hover {
+    border: 10px dashed #ff99c8;
+    
+}
+
+ @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            80% {
+                transform: translateY(0);
+            }
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
